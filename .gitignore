@@ -1,0 +1,4 @@
+.vscode/
+*Zone.Identifier
+__pycache__/
+*.db
