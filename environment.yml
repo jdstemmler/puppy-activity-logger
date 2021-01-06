@@ -1,0 +1,8 @@
+name: puppy
+channels:
+  - defaults
+dependencies:
+  - flask
+  - requests
+  - python-dateutil
+  - python=3.8

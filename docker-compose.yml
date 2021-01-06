@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  puppy-activity:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - app/data:/app/data
+    ports: 
+      - 5000:5000

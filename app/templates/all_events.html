@@ -1,0 +1,14 @@
+<h1>Maya's Events</h1>
+
+<table>
+    <tr>
+        <th>Timestamp</th>
+        <th>Event</th>
+    </tr>
+{% for event in events %}
+    <tr>
+        <td>{{ event[0] }}</td>
+        <td>{{ event[1] }}</td>
+    </tr>
+{% endfor %}
+</table>

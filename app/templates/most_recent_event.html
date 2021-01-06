@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="p-3 col-lg-4">
+    <h2>I last ate at {{ events['Food'].strftime('%H:%M') }}</h2>
+</div>
+
+<h3>
+<div class="row">
+    <div class="col-lg-4 p-3">💩 {{ deltas['Poop'] }}</div>
+    <div class="col-lg-4 p-3">💦 {{ deltas['Pee'] }}</div>
+    <div class="col-lg-4 p-3">⚠️ {{ deltas['Accident'] }}</div>
+</div>
+</h3>
+
+{% endblock %}
