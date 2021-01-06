@@ -26,3 +26,6 @@ def human_delta(tdelta):
         fmt = '{days} day(s) {hrs} hr(s) {min} min'
 
     return fmt.format(**d)
+
+def format_date(d):
+    return d.strftime('%H:%M on %m/%d')

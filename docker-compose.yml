@@ -4,6 +4,6 @@ services:
     build: .
     restart: unless-stopped
     volumes:
-      - app/data:/app/data
+      - "./app/data:/app/data"
     ports: 
       - 5000:5000
